@@ -1,0 +1,8 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We tested five claims about attention spectra over training, with per-head tracking across 68 runs and 120 information runs. Heads do not split into high- and low-rank populations. Under standard initialization they start near-uniform and gain rank, so rank collapse is not a universal training dynamic. The bound $I(A;X)\le H(Y|X)+O(1/\sqrt n)$ is false, and our variance bound is a valid replacement. The $0.3\log n$ pruning rule is unsafe, though entropy carries pruning information on \cifar. One finding survives in modified form: the rank fall from peaked starts grows strongly with depth.
+
+{\bf The takeaway:} the initial state, not training alone, decides whether attention rank falls.
+
+Future work should sweep query and key gain and softmax temperature to map how the start state carries through depth, test a per-layer entropy ranking on larger vision models, ask whether stable spatial roles explain the link between entropy and importance on vision, and analyze per-input distributions, since per-head means may hide input-level bimodality. If a derivation of the H4 bound exists, its assumptions deserve a direct test.

@@ -1,0 +1,8 @@
+\section{Related Work}
+\label{sec:related}
+
+\para{Head importance and pruning.} \citet{michel2019sixteen} rank heads by the expected sensitivity of the loss to a head mask. They report that up to 60\% of heads can be pruned from a fine-tuned \bert on \sst, and that the safe share depends on task and model. \citet{voita2019analyzing} prune heads with stochastic $L_0$ gates and remove 38 of 48 encoder heads for a 0.15 BLEU drop on one translation task. Neither work uses a spectral threshold. Unlike these methods, the rule we test needs no gradients or gates, and we compare it with same-count baselines.
+
+\para{Spectra and rank collapse.} \citet{wang2020linformer} report long-tailed spectra of the attention context mapping in pretrained models, more skewed in higher layers. \citet{naitsaada2024mind} analyze rank collapse in attention at initialization and link it to a spectral gap. Definitions of effective rank vary~\citep{roy2007effective}, so we check several. Building on this work, we follow the spectrum through training and vary the initial state directly.
+
+\para{Information in deterministic networks.} For deterministic networks, mutual information with the input is constant for discrete inputs and infinite for continuous inputs~\citep{saxe2018information,goldfeld2019estimating}. Any finite estimate therefore reflects a regularizer. We add a Gaussian noise channel and use pairwise-distance bounds~\citep{kolchinsky2017estimating}, which bracket the regularized quantity. We know of no attention-specific bound of the form in H4, and no derivation of it was available to us. We therefore test the statement itself.

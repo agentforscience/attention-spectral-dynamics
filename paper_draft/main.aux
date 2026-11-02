@@ -1,0 +1,118 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{plainnat}
+\citation{michel2019sixteen,voita2019analyzing}
+\citation{wang2020linformer,naitsaada2024mind}
+\citation{saxe2018information,goldfeld2019estimating}
+\citation{vaswani2017attention}
+\citation{devlin2018bert}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
+\citation{michel2019sixteen}
+\citation{voita2019analyzing}
+\citation{wang2020linformer}
+\citation{naitsaada2024mind}
+\citation{roy2007effective}
+\citation{saxe2018information,goldfeld2019estimating}
+\citation{kolchinsky2017estimating}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces The five claims and our verdicts. A claim counts as supported in a configuration if its prespecified criterion holds in at least 80\% of seeds.}}{2}{table.1}\protected@file@percent }
+\newlabel{tab:claims}{{1}{2}{The five claims and our verdicts. A claim counts as supported in a configuration if its prespecified criterion holds in at least 80\% of seeds}{table.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\newlabel{sec:related}{{2}{2}{Related Work}{section.2}{}}
+\citation{roy2007effective}
+\citation{zhang2015character}
+\citation{socher2013recursive}
+\citation{krizhevsky2009learning}
+\citation{dosovitskiy2021image}
+\citation{hartigan1985dip}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Training configurations, 68 runs in total. Accuracies are seed means. All other models are pre-LN unless stated, and all use 41 checkpoints, dense over the first 20\% of training.}}{3}{table.2}\protected@file@percent }
+\newlabel{tab:configs}{{2}{3}{Training configurations, 68 runs in total. Accuracies are seed means. All other models are pre-LN unless stated, and all use 41 checkpoints, dense over the first 20\% of training}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{3}{section.3}\protected@file@percent }
+\newlabel{sec:method}{{3}{3}{Methodology}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Definitions}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Models and data}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Prespecified criteria}{3}{subsection.3.3}\protected@file@percent }
+\citation{kolchinsky2017estimating}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Head populations at 20\% of training, averaged over seeds. H1 needs at least 10\% of heads in both of the first two columns; no configuration comes close.}}{4}{table.3}\protected@file@percent }
+\newlabel{tab:h1}{{3}{4}{Head populations at 20\% of training, averaged over seeds. H1 needs at least 10\% of heads in both of the first two columns; no configuration comes close}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Estimating information}{4}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Statistics and reproducibility}{4}{subsection.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{4}{section.4}\protected@file@percent }
+\newlabel{sec:results}{{4}{4}{Results}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}H1: heads form one population}{4}{subsection.4.1}\protected@file@percent }
+\newlabel{sec:h1}{{4.1}{4}{H1: heads form one population}{subsection.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}H2: entropy rises under default initialization}{4}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:h2}{{4.2}{4}{H2: entropy rises under default initialization}{subsection.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Distribution of head $\mathrm  {rank}_{\mathrm  {eff}}/n$ at 20\% of training and at the end, over all seeds. Dashed and dotted lines mark the claimed limits of 0.1 and 0.6. Heads do not form two groups on either side of these limits; the only heads above 0.6 are in pretrained \textsc  {BERT}\xspace  .}}{5}{figure.1}\protected@file@percent }
+\newlabel{fig:heads}{{1}{5}{Distribution of head $\reff /n$ at 20\% of training and at the end, over all seeds. Dashed and dotted lines mark the claimed limits of 0.1 and 0.6. Heads do not form two groups on either side of these limits; the only heads above 0.6 are in pretrained \bert }{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces $\mathrm  {rank}_{\mathrm  {eff}}/n$ over training on a log scale. Thick lines show first, middle, and last layers (seed means), and the band shows the range over all heads and seeds. Rank rises under default initialization (top row). Later layers lose rank from a peaked start (bottom left) and in pretrained \textsc  {BERT}\xspace  , while first layers keep their initial level. Without label signal (bottom right), the last layer dips and then recovers.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:rank}{{2}{5}{$\reff /n$ over training on a log scale. Thick lines show first, middle, and last layers (seed means), and the band shows the range over all heads and seeds. Rank rises under default initialization (top row). Later layers lose rank from a peaked start (bottom left) and in pretrained \bert , while first layers keep their initial level. Without label signal (bottom right), the last layer dips and then recovers}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}H3: the threshold is not a safe pruning rule}{5}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:h3}{{4.3}{5}{H3: the threshold is not a safe pruning rule}{subsection.4.3}{}}
+\citation{michel2019sixteen}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Entropy shapes. Percentages are shares of (seed, layer) cells in the given band of layers. H2 needs a monotone fall early and a U-shape late in the same configuration.}}{6}{table.4}\protected@file@percent }
+\newlabel{tab:h2}{{4}{6}{Entropy shapes. Percentages are shares of (seed, layer) cells in the given band of layers. H2 needs a monotone fall early and a U-shape late in the same configuration}{table.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces $S/\qopname  \relax o{log}n$ for the first and last thirds of layers; bands show the seed range and the dashed line marks the 0.3 pruning threshold. Default runs (top row) rise steeply and end near the threshold, which explains why it splits them so poorly (section\nobreakspace  {}\ref  {sec:h3}).}}{6}{figure.3}\protected@file@percent }
+\newlabel{fig:entropy}{{3}{6}{$S/\log n$ for the first and last thirds of layers; bands show the seed range and the dashed line marks the 0.3 pruning threshold. Default runs (top row) rise steeply and end near the threshold, which explains why it splits them so poorly (\secref {sec:h3})}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Accuracy loss in percentage points at $\tau =0.3$, with all baselines at the same head count. The lowest loss in each row is in \textbf  {bold}. Only \texttt  {sst\_L6} passes with a non-vacuous cut. Shuffled-label runs are omitted.}}{7}{table.5}\protected@file@percent }
+\newlabel{tab:h3}{{5}{7}{Accuracy loss in percentage points at $\tau =0.3$, with all baselines at the same head count. The lowest loss in each row is in \textbf {bold}. Only \cfg {sst\_L6} passes with a non-vacuous cut. Shuffled-label runs are omitted}{table.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Accuracy loss against share of heads removed for six-layer models, on a symmetric-log axis; the dashed line marks 2\,pp\xspace  . On \textsc  {CIFAR-10}\xspace  , removing high-entropy heads first is far worse than the other rules, while on \textsc  {AG News}\xspace  all rules coincide.}}{7}{figure.4}\protected@file@percent }
+\newlabel{fig:prune}{{4}{7}{Accuracy loss against share of heads removed for six-layer models, on a symmetric-log axis; the dashed line marks 2\pp . On \cifar , removing high-entropy heads first is far worse than the other rules, while on \agnews all rules coincide}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}H4: the bound is false}{7}{subsection.4.4}\protected@file@percent }
+\newlabel{sec:h4}{{4.4}{7}{H4: the bound is false}{subsection.4.4}{}}
+\newlabel{prop:counter}{{1}{7}{Counterexample}{proposition.1}{}}
+\newlabel{prop:variance}{{2}{7}{Variance bound}{proposition.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Estimated layer-level information at $\epsilon =2$, averaged over layers and seeds. Solid lines are the lower bound and dotted lines the upper bound. The dashed black line is the claimed $H(Y|X)$ with the $O(1/\sqrt  n)$ term set to zero. Noise-free points (left end) lie above the line at every $n$, and the curves do not approach it as $n$ grows.}}{8}{figure.5}\protected@file@percent }
+\newlabel{fig:mi}{{5}{8}{Estimated layer-level information at $\epsilon =2$, averaged over layers and seeds. Solid lines are the lower bound and dotted lines the upper bound. The dashed black line is the claimed $H(Y|X)$ with the $O(1/\sqrt n)$ term set to zero. Noise-free points (left end) lie above the line at every $n$, and the curves do not approach it as $n$ grows}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}H5: depth shapes the size of the fall more than its speed}{8}{subsection.4.5}\protected@file@percent }
+\newlabel{sec:h5}{{4.5}{8}{H5: depth shapes the size of the fall more than its speed}{subsection.4.5}{}}
+\citation{wang2020linformer}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Noise-free information. Implied $C$ is the excess of $\hat  {I}_{\mathrm  {BD}}$ over $H(Y|X)$ times $\sqrt  n$, which a true $O(1/\sqrt  n)$ term would keep bounded. ``Layer'' treats all 8 heads jointly; ``head'' is the mean over heads.}}{9}{table.6}\protected@file@percent }
+\newlabel{tab:h4}{{6}{9}{Noise-free information. Implied $C$ is the excess of $\Ibd $ over $H(Y|X)$ times $\sqrt n$, which a true $O(1/\sqrt n)$ term would keep bounded. ``Layer'' treats all 8 heads jointly; ``head'' is the mean over heads}{table.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Time to minimum rank as a fraction of training. The criterion needs a fall of at least 10\% in both layers. No run in any configuration satisfies this.}}{9}{table.7}\protected@file@percent }
+\newlabel{tab:h5}{{7}{9}{Time to minimum rank as a fraction of training. The criterion needs a fall of at least 10\% in both layers. No run in any configuration satisfies this}{table.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{9}{section.5}\protected@file@percent }
+\newlabel{sec:discussion}{{5}{9}{Discussion}{section.5}{}}
+\bibdata{references}
+\bibcite{devlin2018bert}{{1}{2018}{{Devlin et~al.}}{{Devlin, Chang, Lee, and Toutanova}}}
+\bibcite{dosovitskiy2021image}{{2}{2021}{{Dosovitskiy et~al.}}{{Dosovitskiy, Beyer, Kolesnikov, Heigold, Unterthiner, Brockschmidt, and Hutter}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Fraction of training needed for $\mathrm  {rank}_{\mathrm  {eff}}$ to reach its peak, by relative depth and network size, under default initialization. \textsc  {CIFAR-10}\xspace  peaks later in deeper layers, while \textsc  {AG News}\xspace  shows no consistent order. The direction of the depth effect depends on the task.}}{10}{figure.6}\protected@file@percent }
+\newlabel{fig:depth}{{6}{10}{Fraction of training needed for $\reff $ to reach its peak, by relative depth and network size, under default initialization. \cifar peaks later in deeper layers, while \agnews shows no consistent order. The direction of the depth effect depends on the task}{figure.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{10}{section.6}\protected@file@percent }
+\newlabel{sec:conclusion}{{6}{10}{Conclusion}{section.6}{}}
+\bibcite{goldfeld2019estimating}{{3}{2019}{{Goldfeld et~al.}}{{Goldfeld, van~den Berg, Greenewald, Melnyk, Nguyen, Kingsbury, and Polyanskiy}}}
+\bibcite{hartigan1985dip}{{4}{1985}{{Hartigan and Hartigan}}{{}}}
+\bibcite{kolchinsky2017estimating}{{5}{2017}{{Kolchinsky and Tracey}}{{}}}
+\bibcite{krizhevsky2009learning}{{6}{2009}{{Krizhevsky}}{{}}}
+\bibcite{michel2019sixteen}{{7}{2019}{{Michel et~al.}}{{Michel, Levy, and Neubig}}}
+\bibcite{naitsaada2024mind}{{8}{2025}{{Nait~Saada et~al.}}{{Nait~Saada, Naderi, and Tanner}}}
+\bibcite{roy2007effective}{{9}{2007}{{Roy and Vetterli}}{{}}}
+\bibcite{saxe2018information}{{10}{2018}{{Saxe et~al.}}{{Saxe, Bansal, Dapello, Advani, Kolchinsky, Tracey, and Cox}}}
+\bibcite{socher2013recursive}{{11}{2013}{{Socher et~al.}}{{Socher, Perelygin, Wu, Chuang, Manning, Ng, and Potts}}}
+\bibcite{vaswani2017attention}{{12}{2017}{{Vaswani et~al.}}{{Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin}}}
+\bibcite{voita2019analyzing}{{13}{2019}{{Voita et~al.}}{{Voita, Talbot, Moiseev, Sennrich, and Titov}}}
+\bibcite{wang2020linformer}{{14}{2020}{{Wang et~al.}}{{Wang, Li, Khabsa, Fang, and Ma}}}
+\bibcite{zhang2015character}{{15}{2015}{{Zhang et~al.}}{{Zhang, Zhao, and LeCun}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Information Regressions at All Noise Scales}{11}{appendix.A}\protected@file@percent }
+\newlabel{app:regression}{{A}{11}{Information Regressions at All Noise Scales}{appendix.A}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Deviations from the Plan}{11}{appendix.B}\protected@file@percent }
+\newlabel{app:deviations}{{B}{11}{Deviations from the Plan}{appendix.B}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Layer-level fits of $\hat  {I}_{\mathrm  {BD}}=a+bH(Y|X)+c/\sqrt  n$. The $\epsilon =0.2$ fits are omitted since they sit at the $\qopname  \relax o{log}M$ ceiling, and $\epsilon \le 1$ is ceiling-affected. No scale gives both $b$ near 1 and $a$ near 0. Per-head fits at $\epsilon =2$ give $a=0.18$, $b=0.25$ [0.09, 0.41] on \textsc  {Order}\xspace  and $a=0.20$, $b=0.08$ [0.05, 0.11] on \textsc  {AG News}\xspace  , so they also fail.}}{12}{table.8}\protected@file@percent }
+\newlabel{tab:regression}{{8}{12}{Layer-level fits of $\Ibd =a+bH(Y|X)+c/\sqrt n$. The $\epsilon =0.2$ fits are omitted since they sit at the $\log M$ ceiling, and $\epsilon \le 1$ is ceiling-affected. No scale gives both $b$ near 1 and $a$ near 0. Per-head fits at $\epsilon =2$ give $a=0.18$, $b=0.25$ [0.09, 0.41] on \order and $a=0.20$, $b=0.08$ [0.05, 0.11] on \agnews , so they also fail}{table.8}{}}
+\gdef \@abspage@last{12}

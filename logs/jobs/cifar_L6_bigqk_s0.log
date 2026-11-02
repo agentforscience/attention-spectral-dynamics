@@ -1,0 +1,64 @@
+[W1030 23:55:38.612399769 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 23134208, total: 50899386368).
+[W1030 23:55:38.620479735 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 23134208, total: 50899386368).
+[W1030 23:55:57.871766773 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 23068672, total: 50899386368).
+[W1030 23:55:57.884280358 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 23068672, total: 50899386368).
+[W1031 00:06:15.533572058 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:06:15.533807034 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:06:37.839369841 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:06:37.839549863 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:06:58.201295883 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:06:58.201490824 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:07:18.892186499 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:07:18.892410294 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:07:40.983807764 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:07:40.983995720 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:08:01.553981993 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:08:01.554178005 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:08:22.736077198 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:08:22.736283570 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:08:44.143037675 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:08:44.143271038 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:09:04.684308394 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+[W1031 00:09:04.684489778 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 18874368, total: 50899386368).
+{"step": 0, "frac": 0.0, "dev": 0.1055, "t": 12.033390283584595}
+{"step": 75, "frac": 0.01, "dev": 0.3565, "t": 39.09002089500427}
+{"step": 150, "frac": 0.02, "dev": 0.398, "t": 71.53643846511841}
+{"step": 224, "frac": 0.03, "dev": 0.3965, "t": 104.09302568435669}
+{"step": 299, "frac": 0.04, "dev": 0.4435, "t": 132.22444319725037}
+{"step": 374, "frac": 0.05, "dev": 0.4745, "t": 159.042329788208}
+{"step": 449, "frac": 0.06, "dev": 0.4735, "t": 187.30993366241455}
+{"step": 524, "frac": 0.07, "dev": 0.5255, "t": 217.02613735198975}
+{"step": 598, "frac": 0.08, "dev": 0.518, "t": 244.84050178527832}
+{"step": 673, "frac": 0.09, "dev": 0.5195, "t": 273.97118854522705}
+{"step": 748, "frac": 0.1, "dev": 0.557, "t": 300.44182300567627}
+{"step": 823, "frac": 0.11, "dev": 0.5445, "t": 328.1915786266327}
+{"step": 898, "frac": 0.12, "dev": 0.568, "t": 356.9825134277344}
+{"step": 972, "frac": 0.13, "dev": 0.563, "t": 384.841392993927}
+{"step": 1047, "frac": 0.14, "dev": 0.566, "t": 412.8624475002289}
+{"step": 1122, "frac": 0.15, "dev": 0.5745, "t": 443.0302596092224}
+{"step": 1197, "frac": 0.16, "dev": 0.5975, "t": 469.29231429100037}
+{"step": 1272, "frac": 0.17, "dev": 0.5885, "t": 495.3306133747101}
+{"step": 1346, "frac": 0.18, "dev": 0.601, "t": 522.3998486995697}
+{"step": 1421, "frac": 0.19, "dev": 0.592, "t": 550.6750700473785}
+{"step": 1496, "frac": 0.2, "dev": 0.6175, "t": 580.0634276866913}
+{"step": 1795, "frac": 0.24, "dev": 0.626, "t": 652.8181252479553}
+{"step": 2094, "frac": 0.28, "dev": 0.6405, "t": 727.0517282485962}
+{"step": 2394, "frac": 0.32, "dev": 0.6605, "t": 801.0483899116516}
+{"step": 2693, "frac": 0.36, "dev": 0.672, "t": 864.6541829109192}
+{"step": 2992, "frac": 0.4, "dev": 0.6855, "t": 931.0177812576294}
+{"step": 3291, "frac": 0.44, "dev": 0.6945, "t": 1001.3183674812317}
+{"step": 3590, "frac": 0.48, "dev": 0.7245, "t": 1067.6462452411652}
+{"step": 3890, "frac": 0.52, "dev": 0.73, "t": 1135.488627910614}
+{"step": 4189, "frac": 0.56, "dev": 0.736, "t": 1205.025362253189}
+{"step": 4488, "frac": 0.6, "dev": 0.742, "t": 1262.6694951057434}
+{"step": 4787, "frac": 0.64, "dev": 0.7425, "t": 1326.816246509552}
+{"step": 5086, "frac": 0.68, "dev": 0.754, "t": 1382.8964602947235}
+{"step": 5386, "frac": 0.72, "dev": 0.769, "t": 1445.0426943302155}
+{"step": 5685, "frac": 0.76, "dev": 0.772, "t": 1501.3583617210388}
+{"step": 5984, "frac": 0.8, "dev": 0.767, "t": 1574.156042098999}
+{"step": 6283, "frac": 0.84, "dev": 0.7715, "t": 1638.9870295524597}
+{"step": 6582, "frac": 0.88, "dev": 0.7695, "t": 1705.5878100395203}
+{"step": 6882, "frac": 0.92, "dev": 0.771, "t": 1771.7237870693207}
+{"step": 7181, "frac": 0.96, "dev": 0.7725, "t": 1843.248768568039}
+{"step": 7480, "frac": 1.0, "dev": 0.774, "t": 1908.9450917243958}
+DONE cifar_L6_bigqk 0 test 0.7797 time 2270.2231171131134

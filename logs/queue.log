@@ -1,0 +1,614 @@
+21:16 start cifar_L6_s0 gpu 0 free 5030
+21:17 start sst_L6_s0 gpu 0 free 4710
+21:17 start ag_L6_s1 gpu 0 free 3765
+21:18 start cifar_L6_s1 gpu 2 free 1891
+21:18 cifar_L6_s1 rc 75
+21:18 start cifar_L6_s1 gpu 3 free 5183
+21:18 start sst_L6_s1 gpu 3 free 3112
+21:19 start ag_L6_s2 gpu 0 free 2511
+21:19 start ag_L6_s0 gpu 1 free 3333
+21:19 start cifar_L6_s2 gpu 2 free 3107
+21:20 start sst_L6_s2 gpu 1 free 2086
+21:21 start ag_L6_s3 gpu 3 free 1937
+21:22 start cifar_L6_s3 gpu 0 free 2139
+21:27 start sst_L6_s3 gpu 1 free 2969
+21:27 start ag_L6_s4 gpu 1 free 2024
+21:29 start cifar_L6_s4 gpu 2 free 3107
+21:30 start sst_L6_s4 gpu 1 free 2256
+21:30 start ag_L6_s5 gpu 3 free 1968
+21:32 start cifar_L6_s5 gpu 1 free 2022
+21:32 cifar_L6_s5 rc 75
+21:32 start cifar_L6_s5 gpu 1 free 2022
+21:32 cifar_L6_s5 rc 75
+21:33 start cifar_L6_s5 gpu 1 free 2022
+21:33 cifar_L6_s5 rc 75
+21:33 start cifar_L6_s5 gpu 3 free 2442
+21:33 start sst_L6_s5 gpu 1 free 2969
+21:34 start ag_L6_s6 gpu 1 free 2024
+21:35 start cifar_L6_s6 gpu 1 free 2022
+21:35 cifar_L6_s6 rc 75
+21:36 start cifar_L6_s6 gpu 1 free 2022
+21:36 cifar_L6_s6 rc 75
+21:36 start cifar_L6_s6 gpu 1 free 2022
+21:36 cifar_L6_s6 rc 75
+21:36 start cifar_L6_s6 gpu 1 free 2022
+21:36 cifar_L6_s6 rc 75
+21:37 start cifar_L6_s6 gpu 1 free 2969
+21:40 start sst_L6_s6 gpu 0 free 2255
+21:41 start ag_L6_s7 gpu 2 free 2753
+21:42 start cifar_L6_s7 gpu 1 free 2143
+21:44 start sst_L6_s7 gpu 2 free 1859
+21:45 start ag_L3_s0 gpu 0 free 3499
+21:45 start cifar_L3_s0 gpu 0 free 2567
+21:46 start ag_L12_s0 gpu 3 free 2921
+21:47 start ag_L6_postln_s0 gpu 2 free 1859
+21:50 start ag_L3_s1 gpu 2 free 1839
+21:53 start cifar_L12_s0 gpu 1 free 2143
+21:53 cifar_L12_s0 rc 75
+21:53 start cifar_L12_s0 gpu 1 free 2143
+21:53 cifar_L12_s0 rc 75
+21:53 start cifar_L12_s0 gpu 1 free 2143
+21:53 cifar_L12_s0 rc 75
+21:54 start cifar_L12_s0 gpu 1 free 2143
+21:54 cifar_L12_s0 rc 75
+21:54 start cifar_L12_s0 gpu 1 free 2143
+21:54 cifar_L12_s0 rc 75
+21:54 start cifar_L12_s0 gpu 3 free 2054
+21:54 cifar_L12_s0 rc 75
+21:55 start cifar_L12_s0 gpu 1 free 2143
+21:55 cifar_L12_s0 rc 75
+21:55 start cifar_L12_s0 gpu 2 free 3107
+21:55 cifar_L12_s0 rc 75
+21:55 start cifar_L12_s0 gpu 2 free 3107
+21:55 cifar_L12_s0 rc 75
+21:56 start cifar_L12_s0 gpu 2 free 3107
+21:56 cifar_L12_s0 rc 75
+21:56 start cifar_L12_s0 gpu 1 free 4217
+21:56 start cifar_L3_s1 gpu 2 free 1747
+22:05 start ag_L12_s1 gpu 3 free 3086
+22:14 start ag_L6_postln_s1 gpu 2 free 1731
+22:15 start cifar_L12_s1 gpu 0 free 2843
+22:15 cifar_L12_s1 rc 75
+22:16 start cifar_L12_s1 gpu 0 free 2821
+22:16 cifar_L12_s1 rc 75
+22:16 start cifar_L12_s1 gpu 3 free 2793
+22:16 cifar_L12_s1 rc 75
+22:16 start cifar_L12_s1 gpu 3 free 2336
+22:16 cifar_L12_s1 rc 75
+22:17 start cifar_L12_s1 gpu 3 free 2332
+22:17 cifar_L12_s1 rc 75
+22:17 start cifar_L12_s1 gpu 3 free 2332
+22:17 cifar_L12_s1 rc 75
+22:17 start cifar_L12_s1 gpu 3 free 2332
+22:18 cifar_L12_s1 rc 75
+22:18 start cifar_L12_s1 gpu 3 free 2332
+22:18 cifar_L12_s1 rc 75
+22:18 start cifar_L12_s1 gpu 3 free 2332
+22:18 cifar_L12_s1 rc 75
+22:18 start cifar_L12_s1 gpu 3 free 2332
+22:19 cifar_L12_s1 rc 75
+22:19 start cifar_L12_s1 gpu 3 free 2330
+22:19 cifar_L12_s1 rc 75
+22:19 start cifar_L12_s1 gpu 3 free 2326
+22:19 cifar_L12_s1 rc 75
+22:20 start cifar_L12_s1 gpu 3 free 2326
+22:20 cifar_L12_s1 rc 75
+22:20 start cifar_L12_s1 gpu 3 free 2326
+22:20 cifar_L12_s1 rc 75
+22:20 start cifar_L12_s1 gpu 3 free 2326
+22:20 cifar_L12_s1 rc 75
+22:21 start cifar_L12_s1 gpu 3 free 2326
+22:21 cifar_L12_s1 rc 75
+22:21 start cifar_L12_s1 gpu 3 free 2326
+22:21 cifar_L12_s1 rc 75
+22:21 start cifar_L12_s1 gpu 3 free 2326
+22:21 cifar_L12_s1 rc 75
+22:22 start cifar_L12_s1 gpu 3 free 2326
+22:22 cifar_L12_s1 rc 75
+22:22 start cifar_L12_s1 gpu 3 free 2326
+22:22 cifar_L12_s1 rc 75
+22:22 start cifar_L12_s1 gpu 3 free 2326
+22:22 cifar_L12_s1 rc 75
+22:23 start cifar_L12_s1 gpu 3 free 2326
+22:23 cifar_L12_s1 rc 75
+22:23 start cifar_L12_s1 gpu 3 free 2304
+22:23 cifar_L12_s1 rc 75
+22:23 start cifar_L12_s1 gpu 3 free 2304
+22:24 cifar_L12_s1 rc 75
+22:24 start cifar_L12_s1 gpu 3 free 2304
+22:24 cifar_L12_s1 rc 75
+22:24 start cifar_L12_s1 gpu 3 free 2304
+22:24 cifar_L12_s1 rc 75
+22:24 start cifar_L12_s1 gpu 3 free 2304
+22:25 cifar_L12_s1 rc 75
+22:25 start cifar_L12_s1 gpu 3 free 2304
+22:25 cifar_L12_s1 rc 75
+22:25 start cifar_L12_s1 gpu 3 free 2304
+22:25 cifar_L12_s1 rc 75
+22:26 start cifar_L12_s1 gpu 3 free 2302
+22:26 cifar_L12_s1 rc 75
+22:26 start cifar_L12_s1 gpu 3 free 2282
+22:26 cifar_L12_s1 rc 75
+22:26 start cifar_L12_s1 gpu 3 free 2222
+22:26 cifar_L12_s1 rc 75
+22:27 start cifar_L12_s1 gpu 3 free 2222
+22:27 cifar_L12_s1 rc 75
+22:27 start cifar_L12_s1 gpu 3 free 2222
+22:27 cifar_L12_s1 rc 75
+22:27 start cifar_L12_s1 gpu 3 free 2222
+22:27 cifar_L12_s1 rc 75
+22:28 start cifar_L12_s1 gpu 3 free 2222
+22:28 cifar_L12_s1 rc 75
+22:28 start cifar_L12_s1 gpu 3 free 2222
+22:28 cifar_L12_s1 rc 75
+22:28 start cifar_L12_s1 gpu 3 free 2222
+22:28 cifar_L12_s1 rc 75
+22:29 start cifar_L12_s1 gpu 3 free 2222
+22:29 cifar_L12_s1 rc 75
+22:29 start cifar_L12_s1 gpu 3 free 2222
+22:29 cifar_L12_s1 rc 75
+22:29 start cifar_L12_s1 gpu 3 free 2222
+22:30 cifar_L12_s1 rc 75
+22:30 start cifar_L12_s1 gpu 3 free 2222
+22:30 cifar_L12_s1 rc 75
+22:30 start cifar_L12_s1 gpu 3 free 2222
+22:30 cifar_L12_s1 rc 75
+22:30 start cifar_L12_s1 gpu 3 free 2222
+22:31 start ag_L3_s2 gpu 3 free 2222
+22:31 cifar_L12_s1 rc 75
+22:31 start cifar_L12_s1 gpu 1 free 3755
+22:32 start cifar_L3_s2 gpu 2 free 1724
+22:33 start ag_L12_s2 gpu 0 free 4697
+22:33 start cifar_L12_s2 gpu 0 free 2536
+22:33 cifar_L12_s2 rc 75
+22:33 start cifar_L12_s2 gpu 0 free 2536
+22:33 cifar_L12_s2 rc 75
+22:40 start cifar_L12_s2 gpu 3 free 3312
+22:41 cifar_L12_s2 rc 75
+22:41 start cifar_L12_s2 gpu 3 free 3312
+22:41 cifar_L12_s2 rc 75
+22:41 start cifar_L12_s2 gpu 3 free 3312
+22:41 cifar_L12_s2 rc 75
+22:42 start cifar_L12_s2 gpu 3 free 3312
+22:42 cifar_L12_s2 rc 75
+22:42 start cifar_L12_s2 gpu 3 free 3312
+22:42 cifar_L12_s2 rc 75
+22:42 start cifar_L12_s2 gpu 3 free 3312
+22:42 cifar_L12_s2 rc 75
+22:43 start cifar_L12_s2 gpu 3 free 4203
+22:51 start ag_L6_postln_s2 gpu 2 free 1724
+22:52 start ag_L3_s3 gpu 0 free 2640
+22:52 start cifar_L3_s3 gpu 0 free 1749
+23:02 start ag_L6_postln_s3 gpu 3 free 1862
+23:02 start ag_L3_s4 gpu 2 free 1839
+23:09 start ag_L12_s3 gpu 0 free 2240
+23:12 start cifar_L3_s4 gpu 2 free 1878
+23:14 start cifar_L12_s3 gpu 1 free 3827
+23:31 start mi_order_e0_n500_s0 gpu 2 free 1602
+23:31 start mi_order_e0_n2000_s0 gpu 0 free 2502
+23:32 start mi_order_e0_n8000_s0 gpu 0 free 1841
+23:32 start mi_order_e0_n32000_s0 gpu 2 free 1602
+23:33 start mi_order_e0.1_n500_s0 gpu 0 free 1467
+23:33 start mi_order_e0.1_n2000_s0 gpu 0 free 1467
+23:34 start mi_order_e0.1_n8000_s0 gpu 2 free 1466
+23:35 start mi_order_e0.1_n32000_s0 gpu 0 free 1429
+23:35 start mi_order_e0.2_n500_s0 gpu 0 free 1425
+23:36 start mi_order_e0.2_n2000_s0 gpu 2 free 1466
+23:37 start mi_order_e0.2_n8000_s0 gpu 0 free 1429
+23:37 start mi_order_e0.2_n32000_s0 gpu 0 free 1429
+23:38 start mi_order_e0.3_n500_s0 gpu 2 free 1466
+23:39 start mi_order_e0.3_n2000_s0 gpu 0 free 1409
+23:39 start mi_order_e0.3_n8000_s0 gpu 0 free 1429
+23:39 start mi_order_e0.3_n32000_s0 gpu 2 free 1466
+23:41 start mi_order_e0.4_n500_s0 gpu 0 free 1409
+23:41 start mi_order_e0.4_n2000_s0 gpu 0 free 2134
+23:41 start mi_order_e0.4_n8000_s0 gpu 0 free 1473
+23:42 start mi_order_e0.4_n32000_s0 gpu 2 free 1466
+23:43 start mi_ag_e0_n500_s0 gpu 0 free 1473
+23:43 start mi_ag_e0_n2000_s0 gpu 0 free 1345
+23:43 start mi_ag_e0_n8000_s0 gpu 2 free 1467
+23:44 start mi_ag_e0_n32000_s0 gpu 0 free 2625
+23:44 start mi_ag_e0.1_n500_s0 gpu 0 free 1803
+23:46 start mi_ag_e0.1_n2000_s0 gpu 0 free 1899
+23:46 start mi_ag_e0.1_n8000_s0 gpu 2 free 1467
+23:47 start mi_ag_e0.1_n32000_s0 gpu 0 free 1565
+23:47 start mi_ag_e0.2_n500_s0 gpu 3 free 3519
+23:47 start mi_ag_e0.2_n2000_s0 gpu 3 free 2726
+23:48 start mi_ag_e0.2_n8000_s0 gpu 3 free 1863
+23:48 start mi_ag_e0.2_n32000_s0 gpu 2 free 1423
+23:49 start mi_ag_e0.3_n500_s0 gpu 0 free 1224
+23:49 start mi_ag_e0.3_n2000_s0 gpu 0 free 1224
+23:50 start mi_ag_e0.3_n8000_s0 gpu 3 free 1763
+23:51 start mi_ag_e0.3_n32000_s0 gpu 3 free 1825
+23:51 start mi_ag_e0.4_n500_s0 gpu 3 free 1817
+23:51 start mi_ag_e0.4_n2000_s0 gpu 2 free 1423
+23:52 start mi_ag_e0.4_n8000_s0 gpu 0 free 1986
+23:52 start mi_ag_e0.4_n32000_s0 gpu 0 free 1185
+23:53 start ag_L6_shuffled_s0 gpu 1 free 3825
+23:53 start cifar_L6_shuffled_s0 gpu 1 free 2578
+23:54 start ag_L6_bigqk_s0 gpu 3 free 1761
+23:54 start mi_order_e0_n500_s1 gpu 2 free 1423
+23:54 start mi_order_e0_n2000_s1 gpu 3 free 1281
+23:55 start mi_order_e0_n8000_s1 gpu 3 free 1483
+23:55 start cifar_L6_bigqk_s0 gpu 0 free 1916
+23:55 cifar_L6_bigqk_s0 rc 75
+23:55 start cifar_L6_bigqk_s0 gpu 0 free 1916
+23:56 cifar_L6_bigqk_s0 rc 75
+23:56 start mi_order_e0_n32000_s1 gpu 0 free 1554
+23:56 start mi_order_e0.1_n500_s1 gpu 2 free 1422
+23:56 start mi_order_e0.1_n2000_s1 gpu 3 free 1482
+23:57 start mi_order_e0.1_n8000_s1 gpu 3 free 1482
+23:57 start mi_order_e0.1_n32000_s1 gpu 0 free 1264
+23:58 start mi_order_e0.2_n500_s1 gpu 2 free 1420
+23:59 start mi_order_e0.2_n2000_s1 gpu 3 free 1482
+23:59 start mi_order_e0.2_n8000_s1 gpu 0 free 1264
+23:59 start mi_order_e0.2_n32000_s1 gpu 3 free 1482
+00:00 start mi_order_e0.3_n500_s1 gpu 2 free 1420
+00:00 start mi_order_e0.3_n2000_s1 gpu 0 free 1264
+00:01 start mi_order_e0.3_n8000_s1 gpu 3 free 1462
+00:01 start mi_order_e0.3_n32000_s1 gpu 3 free 1482
+00:02 start mi_order_e0.4_n500_s1 gpu 2 free 1420
+00:02 start mi_order_e0.4_n2000_s1 gpu 0 free 1224
+00:03 start mi_order_e0.4_n8000_s1 gpu 3 free 1460
+00:04 start mi_order_e0.4_n32000_s1 gpu 3 free 1480
+00:04 start mi_ag_e0_n500_s1 gpu 0 free 1222
+00:04 start mi_ag_e0_n2000_s1 gpu 2 free 1418
+00:05 start mi_ag_e0_n8000_s1 gpu 3 free 1460
+00:06 start cifar_L6_bigqk_s0 gpu 1 free 1752
+00:06 cifar_L6_bigqk_s0 rc 75
+00:06 start cifar_L6_bigqk_s0 gpu 1 free 1752
+00:06 cifar_L6_bigqk_s0 rc 75
+00:06 start cifar_L6_bigqk_s0 gpu 1 free 1652
+00:07 cifar_L6_bigqk_s0 rc 75
+00:07 start cifar_L6_bigqk_s0 gpu 1 free 1652
+00:07 cifar_L6_bigqk_s0 rc 75
+00:07 start cifar_L6_bigqk_s0 gpu 1 free 1652
+00:07 cifar_L6_bigqk_s0 rc 75
+00:07 start cifar_L6_bigqk_s0 gpu 1 free 1652
+00:08 cifar_L6_bigqk_s0 rc 75
+00:08 start cifar_L6_bigqk_s0 gpu 1 free 1652
+00:08 cifar_L6_bigqk_s0 rc 75
+00:08 start cifar_L6_bigqk_s0 gpu 1 free 1652
+00:08 cifar_L6_bigqk_s0 rc 75
+00:09 start cifar_L6_bigqk_s0 gpu 1 free 1652
+00:09 cifar_L6_bigqk_s0 rc 75
+00:09 start cifar_L6_bigqk_s0 gpu 3 free 2142
+00:09 start mi_ag_e0_n32000_s1 gpu 1 free 1652
+00:10 start mi_ag_e0.1_n500_s1 gpu 2 free 1418
+00:11 start mi_ag_e0.1_n2000_s1 gpu 1 free 1652
+00:12 start mi_ag_e0.1_n8000_s1 gpu 2 free 1418
+00:13 start mi_ag_e0.1_n32000_s1 gpu 1 free 1652
+00:15 start mi_ag_e0.2_n500_s1 gpu 2 free 1418
+00:15 start mi_ag_e0.2_n2000_s1 gpu 1 free 1652
+00:16 start mi_ag_e0.2_n8000_s1 gpu 3 free 1316
+00:17 start mi_ag_e0.2_n32000_s1 gpu 1 free 2862
+00:17 start mi_ag_e0.3_n500_s1 gpu 1 free 2020
+00:17 start mi_ag_e0.3_n2000_s1 gpu 1 free 2040
+00:18 start mi_ag_e0.3_n8000_s1 gpu 2 free 1416
+00:18 start mi_ag_e0.3_n32000_s1 gpu 1 free 1135
+00:19 start mi_ag_e0.4_n500_s1 gpu 1 free 1135
+00:19 start mi_ag_e0.4_n2000_s1 gpu 3 free 1316
+00:20 start mi_ag_e0.4_n8000_s1 gpu 1 free 2038
+00:20 start mi_ag_e0.4_n32000_s1 gpu 1 free 1209
+00:20 start mi_order_e0_n500_s2 gpu 1 free 1189
+00:21 start mi_order_e0_n2000_s2 gpu 2 free 1416
+00:21 start mi_order_e0_n8000_s2 gpu 1 free 1337
+00:22 start ag_L6_shuffled_s1 gpu 1 free 2200
+00:22 start cifar_L6_shuffled_s1 gpu 1 free 1816
+00:22 cifar_L6_shuffled_s1 rc 75
+00:23 start cifar_L6_shuffled_s1 gpu 1 free 1816
+00:23 cifar_L6_shuffled_s1 rc 75
+00:23 start cifar_L6_shuffled_s1 gpu 1 free 2478
+00:23 start mi_order_e0_n32000_s2 gpu 2 free 1416
+00:24 start mi_order_e0.1_n500_s2 gpu 3 free 1316
+00:25 start mi_order_e0.1_n2000_s2 gpu 2 free 1416
+00:26 start mi_order_e0.1_n8000_s2 gpu 3 free 1316
+00:27 start mi_order_e0.1_n32000_s2 gpu 2 free 1416
+00:28 start mi_order_e0.2_n500_s2 gpu 3 free 1316
+00:29 start mi_order_e0.2_n2000_s2 gpu 2 free 1416
+00:30 start mi_order_e0.2_n8000_s2 gpu 3 free 1316
+00:30 start mi_order_e0.2_n32000_s2 gpu 2 free 1416
+00:31 start mi_order_e0.3_n500_s2 gpu 3 free 1316
+00:32 start mi_order_e0.3_n2000_s2 gpu 2 free 1416
+00:33 start mi_order_e0.3_n8000_s2 gpu 3 free 1316
+00:34 start mi_order_e0.3_n32000_s2 gpu 2 free 1416
+00:35 start ag_L6_bigqk_s1 gpu 1 free 1652
+00:35 start mi_order_e0.4_n500_s2 gpu 2 free 1416
+00:36 start mi_order_e0.4_n2000_s2 gpu 3 free 1316
+00:37 start mi_order_e0.4_n8000_s2 gpu 2 free 1416
+00:38 start mi_order_e0.4_n32000_s2 gpu 3 free 1316
+00:39 start mi_ag_e0_n500_s2 gpu 2 free 1416
+00:40 start mi_ag_e0_n2000_s2 gpu 3 free 1316
+00:41 start mi_ag_e0_n8000_s2 gpu 2 free 1417
+00:43 start mi_ag_e0_n32000_s2 gpu 3 free 1316
+00:44 start mi_ag_e0.1_n500_s2 gpu 2 free 1417
+00:45 start cifar_L6_bigqk_s1 gpu 1 free 2478
+00:46 start mi_ag_e0.1_n2000_s2 gpu 2 free 1417
+00:46 start mi_ag_e0.1_n8000_s2 gpu 3 free 1316
+00:47 start mi_ag_e0.1_n32000_s2 gpu 1 free 1652
+00:47 start mi_ag_e0.2_n500_s2 gpu 3 free 2526
+00:47 start mi_ag_e0.2_n2000_s2 gpu 3 free 1737
+00:48 start mi_ag_e0.2_n8000_s2 gpu 1 free 1652
+00:49 start mi_ag_e0.2_n32000_s2 gpu 2 free 1417
+00:49 start mi_ag_e0.3_n500_s2 gpu 0 free 3698
+00:49 start mi_ag_e0.3_n2000_s2 gpu 0 free 2897
+00:50 start mi_ag_e0.3_n8000_s2 gpu 0 free 2031
+00:50 start mi_ag_e0.3_n32000_s2 gpu 3 free 1663
+00:50 start mi_ag_e0.4_n500_s2 gpu 3 free 1717
+00:51 start mi_ag_e0.4_n2000_s2 gpu 3 free 1737
+00:51 start mi_ag_e0.4_n8000_s2 gpu 2 free 1417
+00:51 start mi_ag_e0.4_n32000_s2 gpu 1 free 1199
+00:52 start ag_L6_shuffled_s2 gpu 0 free 1971
+00:52 start ft_ag_L6_s0 gpu 0 free 1587
+00:53 start ft_ag_L6_s1 gpu 0 free 1585
+00:53 start ft_ag_L6_s2 gpu 0 free 1585
+00:53 start cifar_L6_shuffled_s2 gpu 3 free 2640
+00:54 start bert_ag_s0 gpu 0 free 4592
+00:54 start ag_L6_bigqk_s2 gpu 3 free 2295
+00:55 start ft_ag_L6_s3 gpu 2 free 1417
+00:55 start ft_ag_L6_s4 gpu 2 free 1417
+00:56 start ft_ag_L6_s5 gpu 2 free 1417
+00:56 start ft_ag_L6_s6 gpu 2 free 1417
+00:57 start ft_ag_L6_s7 gpu 2 free 1417
+00:58 start ft_sst_L6_s0 gpu 2 free 1417
+00:58 start ft_sst_L6_s1 gpu 2 free 1417
+00:58 start ft_sst_L6_s2 gpu 2 free 1417
+00:59 start ft_sst_L6_s3 gpu 2 free 1417
+00:59 start ft_sst_L6_s4 gpu 2 free 1417
+00:59 start ft_sst_L6_s5 gpu 2 free 1417
+01:00 start ft_sst_L6_s6 gpu 2 free 1417
+01:00 start ft_sst_L6_s7 gpu 2 free 1417
+01:00 start ft_cifar_L6_s0 gpu 2 free 1417
+01:00 ft_cifar_L6_s0 rc 75
+01:01 start ft_cifar_L6_s0 gpu 2 free 1417
+01:01 ft_cifar_L6_s0 rc 75
+01:01 start ft_cifar_L6_s0 gpu 2 free 1417
+01:01 ft_cifar_L6_s0 rc 75
+01:01 start ft_cifar_L6_s0 gpu 2 free 1417
+01:02 ft_cifar_L6_s0 rc 75
+01:02 start ft_cifar_L6_s0 gpu 2 free 1417
+01:02 ft_cifar_L6_s0 rc 75
+01:02 start ft_cifar_L6_s0 gpu 2 free 1417
+01:02 ft_cifar_L6_s0 rc 75
+01:02 start ft_cifar_L6_s0 gpu 2 free 1417
+01:03 ft_cifar_L6_s0 rc 75
+01:03 start ft_cifar_L6_s0 gpu 2 free 1417
+01:03 ft_cifar_L6_s0 rc 75
+01:03 start ft_cifar_L6_s0 gpu 2 free 1417
+01:03 ft_cifar_L6_s0 rc 75
+01:04 start ft_cifar_L6_s0 gpu 2 free 1417
+01:04 ft_cifar_L6_s0 rc 75
+01:04 start ft_cifar_L6_s0 gpu 2 free 1417
+01:04 ft_cifar_L6_s0 rc 75
+01:04 start ft_cifar_L6_s0 gpu 2 free 1417
+01:04 ft_cifar_L6_s0 rc 75
+01:05 start ft_cifar_L6_s0 gpu 2 free 1417
+01:05 ft_cifar_L6_s0 rc 75
+01:05 start ft_cifar_L6_s0 gpu 2 free 1417
+01:05 ft_cifar_L6_s0 rc 75
+01:05 start ft_cifar_L6_s0 gpu 2 free 1417
+01:05 ft_cifar_L6_s0 rc 75
+01:06 start ft_cifar_L6_s0 gpu 2 free 1417
+01:06 ft_cifar_L6_s0 rc 75
+01:06 start ft_cifar_L6_s0 gpu 2 free 1417
+01:06 ft_cifar_L6_s0 rc 75
+01:06 start ft_cifar_L6_s0 gpu 2 free 1417
+01:06 ft_cifar_L6_s0 rc 75
+01:07 start ft_cifar_L6_s0 gpu 2 free 1417
+01:07 ft_cifar_L6_s0 rc 75
+01:07 start ft_cifar_L6_s0 gpu 2 free 1417
+01:07 ft_cifar_L6_s0 rc 75
+01:07 start ft_cifar_L6_s0 gpu 2 free 1417
+01:08 ft_cifar_L6_s0 rc 75
+01:08 start cifar_L6_bigqk_s2 gpu 1 free 3188
+01:08 start ft_cifar_L6_s0 gpu 2 free 1417
+01:08 ft_cifar_L6_s0 rc 75
+01:08 start ft_cifar_L6_s0 gpu 2 free 1417
+01:09 ft_cifar_L6_s0 rc 75
+01:09 start ft_cifar_L6_s0 gpu 2 free 1417
+01:09 ft_cifar_L6_s0 rc 75
+01:09 start ft_cifar_L6_s0 gpu 2 free 1417
+01:09 ft_cifar_L6_s0 rc 75
+01:09 start ag_L6_bigqk_s3 gpu 1 free 1652
+01:10 start ft_cifar_L6_s0 gpu 2 free 1417
+01:10 ft_cifar_L6_s0 rc 75
+01:10 start ft_cifar_L6_s0 gpu 2 free 1417
+01:10 ft_cifar_L6_s0 rc 75
+01:11 start ft_cifar_L6_s0 gpu 2 free 1417
+01:11 ft_cifar_L6_s0 rc 75
+01:11 start ft_cifar_L6_s0 gpu 2 free 1417
+01:11 ft_cifar_L6_s0 rc 75
+01:11 start ft_cifar_L6_s0 gpu 2 free 1417
+01:11 ft_cifar_L6_s0 rc 75
+01:12 start ft_cifar_L6_s0 gpu 2 free 1417
+01:12 ft_cifar_L6_s0 rc 75
+01:12 start ft_cifar_L6_s0 gpu 2 free 1417
+01:12 ft_cifar_L6_s0 rc 75
+01:12 start ft_cifar_L6_s0 gpu 2 free 1417
+01:12 ft_cifar_L6_s0 rc 75
+01:13 start ft_cifar_L6_s0 gpu 2 free 1417
+01:13 ft_cifar_L6_s0 rc 75
+01:13 start cifar_L6_bigqk_s3 gpu 3 free 2293
+01:13 start ft_cifar_L6_s0 gpu 2 free 1417
+01:14 ft_cifar_L6_s0 rc 75
+01:14 start ft_cifar_L6_s0 gpu 2 free 1417
+01:14 ft_cifar_L6_s0 rc 75
+01:14 start ft_cifar_L6_s0 gpu 2 free 1417
+01:14 ft_cifar_L6_s0 rc 75
+01:14 start ft_cifar_L6_s0 gpu 2 free 1417
+01:15 ft_cifar_L6_s0 rc 75
+01:15 start ft_cifar_L6_s0 gpu 2 free 1417
+01:15 ft_cifar_L6_s0 rc 75
+01:15 start ft_cifar_L6_s0 gpu 2 free 1417
+01:15 ft_cifar_L6_s0 rc 75
+01:15 start ft_cifar_L6_s0 gpu 2 free 1417
+01:16 ft_cifar_L6_s0 rc 75
+01:16 start ft_cifar_L6_s0 gpu 2 free 1417
+01:16 ft_cifar_L6_s0 rc 75
+01:16 start ft_cifar_L6_s0 gpu 2 free 1417
+01:16 ft_cifar_L6_s0 rc 75
+01:17 start ft_cifar_L6_s0 gpu 2 free 1417
+01:17 ft_cifar_L6_s0 rc 75
+01:17 start ft_cifar_L6_s0 gpu 2 free 1417
+01:17 ft_cifar_L6_s0 rc 75
+01:17 start ft_cifar_L6_s0 gpu 2 free 1417
+01:17 ft_cifar_L6_s0 rc 75
+01:18 start ft_cifar_L6_s0 gpu 2 free 1417
+01:18 ft_cifar_L6_s0 rc 75
+01:18 start ft_cifar_L6_s0 gpu 2 free 1417
+01:18 ft_cifar_L6_s0 rc 75
+01:18 start ft_cifar_L6_s0 gpu 2 free 1417
+01:18 ft_cifar_L6_s0 rc 75
+01:19 start ft_cifar_L6_s0 gpu 2 free 1417
+01:19 ft_cifar_L6_s0 rc 75
+01:19 start ft_cifar_L6_s0 gpu 2 free 1417
+01:19 ft_cifar_L6_s0 rc 75
+01:19 start ft_cifar_L6_s0 gpu 2 free 1417
+01:19 ft_cifar_L6_s0 rc 75
+01:20 start ft_cifar_L6_s0 gpu 2 free 1417
+01:20 ft_cifar_L6_s0 rc 75
+01:20 start ft_cifar_L6_s0 gpu 2 free 1417
+01:20 ft_cifar_L6_s0 rc 75
+01:20 start ag_L6_bigqk_s4 gpu 1 free 1652
+01:21 start ft_cifar_L6_s0 gpu 2 free 1417
+01:21 ft_cifar_L6_s0 rc 75
+01:21 start ft_cifar_L6_s0 gpu 2 free 1417
+01:21 ft_cifar_L6_s0 rc 75
+01:21 start ft_cifar_L6_s0 gpu 2 free 1417
+01:22 ft_cifar_L6_s0 rc 75
+01:22 start ft_cifar_L6_s0 gpu 2 free 1417
+01:22 ft_cifar_L6_s0 rc 75
+01:22 start ft_cifar_L6_s0 gpu 2 free 1417
+01:22 ft_cifar_L6_s0 rc 75
+01:23 start ft_cifar_L6_s0 gpu 2 free 1417
+01:23 ft_cifar_L6_s0 rc 75
+01:23 start ft_cifar_L6_s0 gpu 2 free 1417
+01:23 ft_cifar_L6_s0 rc 75
+01:23 start ft_cifar_L6_s0 gpu 2 free 1417
+01:23 ft_cifar_L6_s0 rc 75
+01:24 start ft_cifar_L6_s0 gpu 2 free 1417
+01:24 ft_cifar_L6_s0 rc 75
+01:24 start ft_cifar_L6_s0 gpu 2 free 1417
+01:24 ft_cifar_L6_s0 rc 75
+01:24 start ft_cifar_L6_s0 gpu 2 free 1417
+01:24 ft_cifar_L6_s0 rc 75
+01:25 start ft_cifar_L6_s0 gpu 2 free 1417
+01:25 ft_cifar_L6_s0 rc 75
+01:25 start ft_cifar_L6_s0 gpu 2 free 1417
+01:25 ft_cifar_L6_s0 rc 75
+01:25 start ft_cifar_L6_s0 gpu 2 free 1417
+01:25 ft_cifar_L6_s0 rc 75
+01:26 start ft_cifar_L6_s0 gpu 2 free 1417
+01:26 ft_cifar_L6_s0 rc 75
+01:26 start ft_cifar_L6_s0 gpu 2 free 1417
+01:26 ft_cifar_L6_s0 rc 75
+01:26 start ft_cifar_L6_s0 gpu 2 free 1417
+01:27 ft_cifar_L6_s0 rc 75
+01:27 start ft_cifar_L6_s0 gpu 2 free 1417
+01:27 ft_cifar_L6_s0 rc 75
+01:27 start ft_cifar_L6_s0 gpu 2 free 1417
+01:27 ft_cifar_L6_s0 rc 75
+01:27 start ft_cifar_L6_s0 gpu 2 free 1417
+01:28 ft_cifar_L6_s0 rc 75
+01:28 start cifar_L6_bigqk_s4 gpu 3 free 2221
+01:28 start ag_L12_s4 gpu 1 free 2478
+01:28 start ft_cifar_L6_s0 gpu 2 free 1417
+01:29 ft_cifar_L6_s0 rc 75
+01:29 start ft_cifar_L6_s0 gpu 2 free 1417
+01:29 ft_cifar_L6_s0 rc 75
+01:29 start ft_cifar_L6_s0 gpu 2 free 1417
+01:29 ft_cifar_L6_s0 rc 75
+01:30 start ft_cifar_L6_s0 gpu 2 free 1417
+01:30 ft_cifar_L6_s0 rc 75
+01:30 start ft_cifar_L6_s0 gpu 2 free 1417
+01:30 ft_cifar_L6_s0 rc 75
+01:30 start ft_cifar_L6_s0 gpu 2 free 1417
+01:30 ft_cifar_L6_s0 rc 75
+01:31 start ft_cifar_L6_s0 gpu 2 free 1417
+01:31 ft_cifar_L6_s0 rc 75
+01:31 start ft_cifar_L6_s0 gpu 2 free 1417
+01:31 ft_cifar_L6_s0 rc 75
+01:31 start ft_cifar_L6_s0 gpu 2 free 1417
+01:31 ft_cifar_L6_s0 rc 75
+01:32 start ag_L6_postln_s4 gpu 1 free 1744
+01:32 start ft_cifar_L6_s0 gpu 2 free 1417
+01:32 ft_cifar_L6_s0 rc 75
+01:32 start ft_cifar_L6_s0 gpu 2 free 1417
+01:33 ft_cifar_L6_s0 rc 75
+01:33 start ft_cifar_L6_s0 gpu 2 free 1417
+01:33 ft_cifar_L6_s0 rc 75
+01:33 start ft_cifar_L6_s0 gpu 2 free 1417
+01:33 ft_cifar_L6_s0 rc 75
+01:33 start ft_cifar_L6_s0 gpu 2 free 1417
+01:34 ft_cifar_L6_s0 rc 75
+01:34 start ft_cifar_L6_s0 gpu 2 free 1417
+01:34 ft_cifar_L6_s0 rc 75
+01:34 start ft_cifar_L6_s0 gpu 2 free 1417
+01:34 ft_cifar_L6_s0 rc 75
+01:34 start ft_cifar_L6_s0 gpu 2 free 1417
+01:35 ft_cifar_L6_s0 rc 75
+01:35 start ft_cifar_L6_s0 gpu 2 free 1417
+01:35 ft_cifar_L6_s0 rc 75
+01:35 start ft_cifar_L6_s0 gpu 2 free 1417
+01:35 ft_cifar_L6_s0 rc 75
+01:36 start ft_cifar_L6_s0 gpu 2 free 1417
+01:36 ft_cifar_L6_s0 rc 75
+01:36 start ft_cifar_L6_s0 gpu 2 free 1417
+01:36 ft_cifar_L6_s0 rc 75
+01:36 start ft_cifar_L6_s0 gpu 2 free 1417
+01:36 ft_cifar_L6_s0 rc 75
+01:37 start ft_cifar_L6_s0 gpu 2 free 1417
+01:37 ft_cifar_L6_s0 rc 75
+01:37 start ft_cifar_L6_s0 gpu 2 free 1417
+01:37 ft_cifar_L6_s0 rc 75
+01:37 start ft_cifar_L6_s0 gpu 2 free 1417
+01:37 ft_cifar_L6_s0 rc 75
+01:38 start ft_cifar_L6_s0 gpu 2 free 1417
+01:38 ft_cifar_L6_s0 rc 75
+01:38 start ft_cifar_L6_s0 gpu 2 free 1417
+01:38 ft_cifar_L6_s0 rc 75
+01:38 start ft_cifar_L6_s0 gpu 2 free 1417
+01:38 ft_cifar_L6_s0 rc 75
+01:39 start ft_cifar_L6_s0 gpu 2 free 1417
+01:39 ft_cifar_L6_s0 rc 75
+01:39 start ft_cifar_L6_s0 gpu 2 free 1417
+01:39 ft_cifar_L6_s0 rc 75
+01:39 start ft_cifar_L6_s0 gpu 2 free 1417
+01:40 ft_cifar_L6_s0 rc 75
+01:40 start repro_ag_L6_s0 gpu 0 free 1828
+01:40 start ft_cifar_L6_s0 gpu 2 free 1417
+01:40 ft_cifar_L6_s0 rc 75
+01:40 start ft_cifar_L6_s0 gpu 2 free 1417
+01:41 ft_cifar_L6_s0 rc 75
+01:41 start ft_cifar_L6_s0 gpu 2 free 1417
+01:41 ft_cifar_L6_s0 rc 75
+01:41 start cifar_L12_s4 gpu 1 free 2233
+01:41 cifar_L12_s4 rc 75
+01:42 start cifar_L12_s4 gpu 1 free 2233
+01:42 cifar_L12_s4 rc 75
+01:42 start cifar_L12_s4 gpu 1 free 2233
+01:42 cifar_L12_s4 rc 75
+01:42 start cifar_L12_s4 gpu 1 free 2233
+01:42 cifar_L12_s4 rc 75
+01:43 start cifar_L12_s4 gpu 1 free 2233
+01:43 cifar_L12_s4 rc 75
+01:43 start cifar_L12_s4 gpu 1 free 2233
+01:43 cifar_L12_s4 rc 75
+01:43 start cifar_L12_s4 gpu 1 free 2233
+01:43 cifar_L12_s4 rc 75
+01:44 start cifar_L12_s4 gpu 1 free 2233
+01:44 cifar_L12_s4 rc 75
+01:44 start cifar_L12_s4 gpu 1 free 4217
+01:44 start ft_cifar_L6_s0 gpu 2 free 1852
+01:44 ft_cifar_L6_s0 rc 75
+01:45 start ft_cifar_L6_s0 gpu 2 free 2365
+01:45 start ft_cifar_L6_s1 gpu 3 free 4057
+01:45 start ft_cifar_L6_s2 gpu 2 free 2365
+01:46 start ft_cifar_L6_s3 gpu 3 free 4057
+01:46 start ft_cifar_L6_s4 gpu 2 free 2365
+01:46 start ft_cifar_L6_s5 gpu 3 free 4057
+01:47 start ft_cifar_L6_s6 gpu 2 free 2365
+01:47 start bert_ag_s1 gpu 3 free 4057
+01:47 start ft_cifar_L6_s7 gpu 2 free 2365
+01:50 start bert_ag_s2 gpu 0 free 7149
+QUEUE EMPTY 02:18

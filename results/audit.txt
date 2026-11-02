@@ -1,0 +1,21 @@
+ag_L12             steps   5526 L1>Last share 1.00 strict depth order 0.39 rise share by 10% 0.86 init row_h 0.987
+ag_L3              steps   5526 L1>Last share 1.00 strict depth order 0.95 rise share by 10% 0.86 init row_h 0.986
+ag_L6              steps   5526 L1>Last share 1.00 strict depth order 0.63 rise share by 10% 0.77 init row_h 0.986
+ag_L6_bigqk        steps   5526 L1>Last share 1.00 strict depth order 1.00 rise share by 10% 0.31 init row_h 0.481
+ag_L6_postln       steps   5526 L1>Last share 1.00 strict depth order 0.56 rise share by 10% 0.80 init row_h 0.986
+ag_L6_shuffled     steps   5526 L1>Last share 1.00 strict depth order 1.00 rise share by 10% -0.18 init row_h 0.986
+bert_ag            steps   1250 L1>Last share 1.00 strict depth order 0.00 rise share by 10% 1.23 init row_h 0.502
+cifar_L12          steps   7480 L1>Last share 1.00 strict depth order 0.54 rise share by 10% 0.45 init row_h 0.995
+cifar_L3           steps   7480 L1>Last share 1.00 strict depth order 1.00 rise share by 10% 0.60 init row_h 0.992
+cifar_L6           steps   7480 L1>Last share 1.00 strict depth order 0.59 rise share by 10% 0.56 init row_h 0.993
+cifar_L6_bigqk     steps   7480 L1>Last share 1.00 strict depth order 0.98 rise share by 10% 1.62 init row_h 0.681
+cifar_L6_shuffled  steps   7480 L1>Last share 1.00 strict depth order 0.71 rise share by 10% -0.13 init row_h 0.994
+sst_L6             steps   3156 L1>Last share 0.95 strict depth order 0.46 rise share by 10% 0.52 init row_h 0.983
+bert above .6n init 0.041666666666666664 by layer [0.08 0.   0.25 0.08 0.   0.08 0.   0.   0.   0.   0.   0.  ]
+bert above .6n 20% 0.03009259259259259 by layer [0.08 0.   0.19 0.06 0.   0.03 0.   0.   0.   0.   0.   0.  ]
+bert above .6n end 0.032407407407407406 by layer [0.08 0.   0.25 0.06 0.   0.   0.   0.   0.   0.   0.   0.  ]
+bert head-rank change |end-init| median 0.006375163516332745
+var bound exact hold 1.0 2400
+all checkpoints 1.0 19200
+max job minutes {'ag_L12': 29.8, 'ag_L3': 10.3, 'ag_L6': 11.5, 'ag_L6_bigqk': 17.5, 'ag_L6_postln': 17.9, 'ag_L6_shuffled': 11.2, 'bert_ag': 17.5, 'cifar_L12': 54.7, 'cifar_L3': 17.7, 'cifar_L6': 21.0, 'cifar_L6_bigqk': 31.8, 'cifar_L6_shuffled': 29.6, 'sst_L6': 4.2}
+[0.004, 0.137, 0.301, 0.424, 0.532, 0.604] [0.065, 0.358, 0.562, 0.66, 0.704, 0.747]

@@ -1,0 +1,42 @@
+\section{Introduction}
+\label{sec:intro}
+
+Does training make attention low-rank? Many practitioners assume that it does, and the assumption has practical weight. Spectral statistics are cheap to compute. If they predicted the fate of a head early in training, they could guide head pruning and low-rank acceleration without any loss-based search.
+
+The evidence for this picture comes mostly from finished models. Studies of head importance measure trained networks~\citep{michel2019sixteen,voita2019analyzing}, spectral studies examine pretrained models or the initial state~\citep{wang2020linformer,naitsaada2024mind}, and the trajectory between these two points is rarely observed. On the theory side, statements about information in attention must also face a known problem: for a deterministic network, mutual information with the input is either constant or infinite~\citep{saxe2018information,goldfeld2019estimating}.
+
+We focus on a concrete hypothesis made of five claims, listed in \tabref{tab:claims}. We fixed a numeric criterion for each claim before training any model. {\bf What does ``rank collapse'' mean if attention starts low-rank?} This question turned out to be central. Scaled dot-product attention~\citep{vaswani2017attention} with small query and key weights is close to uniform at initialization, and a uniform matrix has rank one. We therefore track both rank and row entropy, which separate uniform attention from pointer-like attention.
+
+We train 68 transformers in 13 configurations (\agnews, \sst, \cifar, and pretrained \bert~\citep{devlin2018bert}), varying depth, normalization placement, label signal, and initial attention sharpness. We record every head at 41 checkpoints. A further 120 runs control $H(Y|X)$ exactly through label noise.
+
+Four claims fail as stated, and the pruning claim holds only in narrow conditions. No run shows bifurcation. With default initialization, von Neumann entropy rises: on \agnews, 77--86\% of the total rank increase occurs in the first 10\% of training. With label signal, rank falls substantially only from a peaked start, where the final layer loses 75\% of its rank and the first layer 7\%. The threshold rule prunes 84.9\% of heads on the six-layer \agnews model at a cost of 19.3\pp. The information bound is false, and the measured information does not approach it as $n$ grows.
+
+\begin{table}[t]
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.15}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}llp{7.4cm}@{}}
+        \toprule
+        \textbf{Claim} & \textbf{Verdict} & \textbf{Key evidence} \\
+        \midrule
+        H1: bifurcation by 20\% of training & Refuted & 0 of 68 runs meet the criterion under any of 5 rank definitions \\
+        H2: early monotone fall, late U-shape & Refuted (default init) & Early fall in 0\% of default-arm layers; late U in 0--5\% \\
+        H3: prune $S<0.3\log n$ for $<2$\pp loss & Refuted in general & Passes in 1 of 11 signal configurations, no better than random \\
+        H4: $I(A;X)\le H(Y|X)+O(1/\sqrt n)$ & Refuted & \Secref{sec:h4} gives a counterexample; the implied constant grows with $n$ \\
+        H5: last layer 3--5$\times$ faster to minimum & Refuted; direction only & Undefined under default init; $1.8\times$ [1.6, 2.0] under large init \\
+        \bottomrule
+    \end{tabular}}
+    \caption{The five claims and our verdicts. A claim counts as supported in a configuration if its prespecified criterion holds in at least 80\% of seeds.}
+    \label{tab:claims}
+\end{table}
+
+\para{Contributions.}
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item We measure per-head spectral trajectories across text, vision, depth, normalization, and initialization, and we show that the initial state sets the direction of rank change.
+    \item We refute a proposed information bound with a counterexample, and we prove a replacement in which attention variance relative to noise takes the place of $H(Y|X)$.
+    \item We show that a fixed entropy threshold is unsafe for pruning, while entropy remains a useful ranking signal on \cifar.
+    \item We report what survives: a strong depth gradient in the size of the rank fall from peaked starts.
+\end{itemize}
+
+\para{Organization.} \Secref{sec:related} reviews related work, \secref{sec:method} defines our measures and criteria, \secref{sec:results} presents results claim by claim, \secref{sec:discussion} interprets them, and \secref{sec:conclusion} concludes.

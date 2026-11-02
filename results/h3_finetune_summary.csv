@@ -1,0 +1,6 @@
+,frac,frac,frac,loss_before,loss_before,loss_before,loss_after,loss_after,loss_after
+,mean,std,count,mean,std,count,mean,std,count
+config,,,,,,,,,
+ag_L6,0.849,0.041,8,19.312,4.299,8,10.354,2.975,8
+cifar_L6,0.669,0.053,8,32.77,6.463,8,8.491,1.974,8
+sst_L6,0.138,0.035,8,0.115,0.926,8,0.115,0.683,8

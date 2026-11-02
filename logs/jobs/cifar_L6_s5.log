@@ -1,0 +1,48 @@
+[W1030 21:32:26.889374327 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 19136512, total: 50899386368).
+[W1030 21:32:26.891582709 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 21233664, total: 50899386368).
+[W1030 21:32:48.490650787 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 19136512, total: 50899386368).
+[W1030 21:32:48.492909084 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 21233664, total: 50899386368).
+[W1030 21:33:09.351431831 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 19136512, total: 50899386368).
+[W1030 21:33:09.351956156 CUDACachingAllocator.cpp:623] expandable_segments: memory mapping failed with OOM on device 0 while trying to map 20971520 bytes (free: 21233664, total: 50899386368).
+{"step": 0, "frac": 0.0, "dev": 0.0825, "t": 5.780858278274536}
+{"step": 75, "frac": 0.01, "dev": 0.292, "t": 17.258548259735107}
+{"step": 150, "frac": 0.02, "dev": 0.359, "t": 29.655669927597046}
+{"step": 224, "frac": 0.03, "dev": 0.419, "t": 42.40587520599365}
+{"step": 299, "frac": 0.04, "dev": 0.4735, "t": 55.0072021484375}
+{"step": 374, "frac": 0.05, "dev": 0.476, "t": 67.55969142913818}
+{"step": 449, "frac": 0.06, "dev": 0.5215, "t": 80.45377278327942}
+{"step": 524, "frac": 0.07, "dev": 0.5425, "t": 93.32757472991943}
+{"step": 598, "frac": 0.08, "dev": 0.562, "t": 106.23814058303833}
+{"step": 673, "frac": 0.09, "dev": 0.56, "t": 119.44673156738281}
+{"step": 748, "frac": 0.1, "dev": 0.5935, "t": 130.9108293056488}
+{"step": 823, "frac": 0.11, "dev": 0.59, "t": 141.97485327720642}
+{"step": 898, "frac": 0.12, "dev": 0.6045, "t": 151.57892608642578}
+{"step": 972, "frac": 0.13, "dev": 0.6045, "t": 160.36152291297913}
+{"step": 1047, "frac": 0.14, "dev": 0.625, "t": 168.92073488235474}
+{"step": 1122, "frac": 0.15, "dev": 0.624, "t": 178.10294365882874}
+{"step": 1197, "frac": 0.16, "dev": 0.6215, "t": 189.1610462665558}
+{"step": 1272, "frac": 0.17, "dev": 0.641, "t": 201.02895665168762}
+{"step": 1346, "frac": 0.18, "dev": 0.637, "t": 213.0274374485016}
+{"step": 1421, "frac": 0.19, "dev": 0.635, "t": 226.05118799209595}
+{"step": 1496, "frac": 0.2, "dev": 0.6505, "t": 237.69845986366272}
+{"step": 1795, "frac": 0.24, "dev": 0.689, "t": 273.65781903266907}
+{"step": 2094, "frac": 0.28, "dev": 0.7, "t": 310.19053649902344}
+{"step": 2394, "frac": 0.32, "dev": 0.7065, "t": 328.443101644516}
+{"step": 2693, "frac": 0.36, "dev": 0.723, "t": 349.2771701812744}
+{"step": 2992, "frac": 0.4, "dev": 0.747, "t": 369.76340508461}
+{"step": 3291, "frac": 0.44, "dev": 0.7435, "t": 390.90867257118225}
+{"step": 3590, "frac": 0.48, "dev": 0.75, "t": 410.5680170059204}
+{"step": 3890, "frac": 0.52, "dev": 0.761, "t": 430.66927886009216}
+{"step": 4189, "frac": 0.56, "dev": 0.7785, "t": 451.9758517742157}
+{"step": 4488, "frac": 0.6, "dev": 0.785, "t": 473.89306354522705}
+{"step": 4787, "frac": 0.64, "dev": 0.7855, "t": 498.34244441986084}
+{"step": 5086, "frac": 0.68, "dev": 0.789, "t": 519.6769635677338}
+{"step": 5386, "frac": 0.72, "dev": 0.8035, "t": 539.7979266643524}
+{"step": 5685, "frac": 0.76, "dev": 0.805, "t": 562.8168461322784}
+{"step": 5984, "frac": 0.8, "dev": 0.8135, "t": 587.7132029533386}
+{"step": 6283, "frac": 0.84, "dev": 0.811, "t": 625.7952833175659}
+{"step": 6582, "frac": 0.88, "dev": 0.8135, "t": 661.6292853355408}
+{"step": 6882, "frac": 0.92, "dev": 0.8145, "t": 683.9064962863922}
+{"step": 7181, "frac": 0.96, "dev": 0.817, "t": 701.9477014541626}
+{"step": 7480, "frac": 1.0, "dev": 0.8145, "t": 719.8840563297272}
+DONE cifar_L6 5 test 0.8133 time 788.8059566020966

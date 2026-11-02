@@ -1,0 +1,103 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Devlin et~al.(2018)Devlin, Chang, Lee, and Toutanova]{devlin2018bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock arXiv:1810.04805, 2018.
+
+\bibitem[Dosovitskiy et~al.(2021)Dosovitskiy, Beyer, Kolesnikov, Heigold,
+  Unterthiner, Brockschmidt, and Hutter]{dosovitskiy2021image}
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Georg Heigold, Thomas
+  Unterthiner, Marc Brockschmidt, and Frank Hutter.
+\newblock An image is worth 16x16 words: Transformers for image recognition at
+  scale.
+\newblock In \emph{Proceedings of ICLR}, 2021.
+
+\bibitem[Goldfeld et~al.(2019)Goldfeld, van~den Berg, Greenewald, Melnyk,
+  Nguyen, Kingsbury, and Polyanskiy]{goldfeld2019estimating}
+Ziv Goldfeld, Ewout van~den Berg, Kristjan Greenewald, Igor Melnyk, Nam Nguyen,
+  Brian Kingsbury, and Yury Polyanskiy.
+\newblock Estimating information flow in deep neural networks.
+\newblock In \emph{Proceedings of ICML}, pages 2299--2308, 2019.
+
+\bibitem[Hartigan and Hartigan(1985)]{hartigan1985dip}
+J.~A. Hartigan and P.~M. Hartigan.
+\newblock The dip test of unimodality.
+\newblock \emph{The Annals of Statistics}, 13\penalty0 (1):\penalty0 70--84,
+  1985.
+
+\bibitem[Kolchinsky and Tracey(2017)]{kolchinsky2017estimating}
+Artemy Kolchinsky and Brendan~D. Tracey.
+\newblock Estimating mixture entropy with pairwise distances.
+\newblock \emph{Entropy}, 19\penalty0 (7):\penalty0 361, 2017.
+\newblock Corrected version at arXiv:1706.02419.
+
+\bibitem[Krizhevsky(2009)]{krizhevsky2009learning}
+Alex Krizhevsky.
+\newblock Learning multiple layers of features from tiny images.
+\newblock Technical report, University of Toronto, 2009.
+
+\bibitem[Michel et~al.(2019)Michel, Levy, and Neubig]{michel2019sixteen}
+Paul Michel, Omer Levy, and Graham Neubig.
+\newblock Are sixteen heads really better than one?
+\newblock In \emph{Advances in Neural Information Processing Systems 32}, 2019.
+
+\bibitem[Nait~Saada et~al.(2025)Nait~Saada, Naderi, and
+  Tanner]{naitsaada2024mind}
+Thiziri Nait~Saada, Alireza Naderi, and Jared Tanner.
+\newblock Mind the gap: a spectral analysis of rank collapse and signal
+  propagation in attention layers.
+\newblock In \emph{Proceedings of ICML}, 2025.
+\newblock arXiv:2410.07799.
+
+\bibitem[Roy and Vetterli(2007)]{roy2007effective}
+Olivier Roy and Martin Vetterli.
+\newblock The effective rank: A measure of effective dimensionality.
+\newblock In \emph{Proceedings of EUSIPCO}, 2007.
+
+\bibitem[Saxe et~al.(2018)Saxe, Bansal, Dapello, Advani, Kolchinsky, Tracey,
+  and Cox]{saxe2018information}
+Andrew~M. Saxe, Yamini Bansal, Joel Dapello, Madhu Advani, Artemy Kolchinsky,
+  Brendan~D. Tracey, and David~D. Cox.
+\newblock On the information bottleneck theory of deep learning.
+\newblock In \emph{Proceedings of ICLR}, 2018.
+
+\bibitem[Socher et~al.(2013)Socher, Perelygin, Wu, Chuang, Manning, Ng, and
+  Potts]{socher2013recursive}
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher~D. Manning,
+  Andrew Ng, and Christopher Potts.
+\newblock Recursive deep models for semantic compositionality over a sentiment
+  treebank.
+\newblock In \emph{Proceedings of EMNLP}, pages 1631--1642, 2013.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In \emph{Advances in Neural Information Processing Systems 30}, 2017.
+
+\bibitem[Voita et~al.(2019)Voita, Talbot, Moiseev, Sennrich, and
+  Titov]{voita2019analyzing}
+Elena Voita, David Talbot, Fedor Moiseev, Rico Sennrich, and Ivan Titov.
+\newblock Analyzing multi-head self-attention: Specialized heads do the heavy
+  lifting, the rest can be pruned.
+\newblock In \emph{Proceedings of ACL}, 2019.
+
+\bibitem[Wang et~al.(2020)Wang, Li, Khabsa, Fang, and Ma]{wang2020linformer}
+Sinong Wang, Belinda~Z. Li, Madian Khabsa, Han Fang, and Hao Ma.
+\newblock Linformer: Self-attention with linear complexity.
+\newblock arXiv:2006.04768, 2020.
+
+\bibitem[Zhang et~al.(2015)Zhang, Zhao, and LeCun]{zhang2015character}
+Xiang Zhang, Junbo Zhao, and Yann LeCun.
+\newblock Character-level convolutional networks for text classification.
+\newblock In \emph{Advances in Neural Information Processing Systems 28}, 2015.
+
+\end{thebibliography}

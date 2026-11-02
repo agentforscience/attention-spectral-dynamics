@@ -1,0 +1,59 @@
+\section{Methodology}
+\label{sec:method}
+
+\subsection{Definitions}
+
+A head's attention $\mA(x)$ is an $n\times n$ row-stochastic matrix, where $n$ counts non-padding tokens including \textsc{cls}. With singular values $\sigma_i$, we define $p_i=\sigma_i^2/\sum_j\sigma_j^2$, which are the eigenvalues of $\rho=\mA\mA^\top/\Tr(\mA\mA^\top)$. Our measures are:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item {\bf Von Neumann entropy:} $S=-\sum_i p_i\log p_i$, with range $[0,\log n]$.
+    \item {\bf Effective rank:} $\reff=\exp(S)$ is our primary measure. We also check stable rank, intrinsic rank $(\sum\sigma_i)^2/\sum\sigma_i^2$, the Roy--Vetterli rank $\exp H(\sigma/\sum\sigma_i)$~\citep{roy2007effective}, and numerical rank ($\sigma_i>0.01\,\sigma_1$).
+    \item {\bf Row entropy:} the mean Shannon entropy of rows divided by $\log n$. Uniform attention and pointer attention to a single token both have rank one, but their row entropies are 1 and 0.
+\end{itemize}
+A head's value is its mean over 256 fixed development inputs in eval mode. Note that uniform attention has $S=0$, so a near-uniform head is low-rank.
+
+\subsection{Models and data}
+
+We use a custom encoder with $d=192$, 8 heads, GELU, and \textsc{cls} pooling, trained with AdamW, warm-up, cosine decay, and gradient clipping at 1.0. \Tabref{tab:configs} lists the configurations. \agnews~\citep{zhang2015character} is truncated to 64 tokens. \sst~\citep{socher2013recursive} trains on phrases and tests on sentences; official test labels are hidden, so test data are half of the 872 labeled validation sentences. \cifar~\citep{krizhevsky2009learning} uses $4\times4$ patches, as in a small vision transformer~\citep{dosovitskiy2021image}, giving $n=65$. Two control arms multiply query and key weights by 3 at initialization. This arm was added after the first runs to test whether the absence of collapse is an artifact of small weights, so it is exploratory. Shuffled-label runs reach chance, as they should.
+
+\begin{table}[t]
+    \centering
+    \small
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}lllrrr@{}}
+        \toprule
+        \textbf{Configuration} & \textbf{Data} & \textbf{Layers} & \textbf{Seeds} & \textbf{Steps} & \textbf{Test acc.\ (\%)} \\
+        \midrule
+        \cfg{ag\_L3/L6/L12} & \agnews, mean $n$ 46 & 3 / 6 / 12 & 5 / 8 / 5 & 5,526 & 91.8 / 92.1 / 92.1 \\
+        \cfg{sst\_L6} & \sst, mean $n$ 22 & 6 & 8 & 3,156 & 81.0 \\
+        \cfg{cifar\_L3/L6/L12} & \cifar, $n=65$ & 3 / 6 / 12 & 5 / 8 / 5 & 7,480 & 79.5 / 81.4 / 81.9 \\
+        \cfg{ag\_L6\_postln} & \agnews, post-LN & 6 & 5 & 5,526 & 92.1 \\
+        \cfg{ag\_L6\_bigqk}, \cfg{cifar\_L6\_bigqk} & Q, K init $\times3$ & 6 & 5 / 5 & as above & 91.3 / 78.0 \\
+        \cfg{ag\_L6\_shuffled}, \cfg{cifar\_L6\_shuffled} & Shuffled train labels & 6 & 3 / 3 & as above & 24.7 / 11.3 \\
+        \cfg{bert\_ag} & \bert fine-tune, 40k \agnews, 1 epoch & 12 (12 heads) & 3 & 1,250 & 92.5 \\
+        \bottomrule
+    \end{tabular}}
+    \caption{Training configurations, 68 runs in total. Accuracies are seed means. All other models are pre-LN unless stated, and all use 41 checkpoints, dense over the first 20\% of training.}
+    \label{tab:configs}
+\end{table}
+
+\subsection{Prespecified criteria}
+
+\para{H1.} At 20\% of training: at least 10\% of heads above $0.6n$, at least 10\% below $0.1n$, at least 80\% in their union, and a Hartigan dip test~\citep{hartigan1985dip} with $p<.05$.
+
+\para{H2.} Early and late mean the first and last thirds of layers. A monotone fall needs Spearman $\rho(t,S)\le-0.8$ and rebound at most 5\% of the range. A U-shape needs a minimum in 5--80\% of training, drop and rebound each at least $0.02\log n$, and rebound at least 25\% of the drop.
+
+\para{H3.} We remove heads with mean $S<0.3\log n$ by zeroing their output, with no rescaling or fine-tuning. The test-accuracy loss must be under 2\pp with its upper 95\% bound under 2\pp, and at least 5\% of heads must be removed. {\bf Baselines} use the same head count: 10 random draws, highest entropy first, and an ablation oracle based on single-head accuracy drop on development data. A secondary arm fine-tunes for 5\% of training steps at a tenth of the learning rate.
+
+\para{H4.} The regression $\hat I=a+bH(Y|X)+c/\sqrt n$ must give a confidence interval for $b$ that includes 1 and a small $a$, and the excess over $H(Y|X)$ must shrink like $1/\sqrt n$. The claim does not define $n$, so we read it as training-set size.
+
+\para{H5.} The time $t_{\min}$ is the first checkpoint within 5\% of the fall from the start to the minimum of $\reff$. The ratio of first to last layer must overlap $[3,5]$, with a fall of at least 10\% in both layers.
+
+\subsection{Estimating information}
+
+We run 120 models (4 layers, $d=128$, 3,000 steps, 3 seeds) over label noise $\eta\in\{0,.1,.2,.3,.4\}$, $n\in\{500,2\text{k},8\text{k},32\text{k}\}$, and two tasks. In \order, a synthetic task, 32 tokens contain two markers and the label says which comes first, so noise-free $H(Y|X)=0$ exactly. On \agnews we assume noise-free $H(Y|X)\approx0$. Symmetric noise on training labels gives $H(Y|X)=h_2(\eta)+\eta\log(K-1)$. Clean test data supply the inputs.
+
+Because $\mA$ is deterministic, we estimate $I(\mA+\epsilon Z;X)$ over $M=2{,}000$ test inputs with $\epsilon\in\{0.2,0.5,1,2,4\}$. The pairwise bounds~\citep{kolchinsky2017estimating} satisfy $\Ibd\le I\le\Ikl$, and both are capped at $\log M=7.6$ nats. Rerunning at $M=250$ shows that $\epsilon\le1$ is affected by this ceiling and $\epsilon\ge2$ is not. We therefore report $\epsilon=2$. We chose this scale after seeing the data, and \tabref{tab:regression} gives all scales. {\bf Unless stated otherwise, estimates treat all 8 heads of a layer jointly} and average over layers. We also report the per-head mean, which is much smaller at a fixed $\epsilon$.
+
+\subsection{Statistics and reproducibility}
+
+The seed is the unit of inference. Confidence intervals come from 10,000 bootstrap resamples over seeds, so they are coarse at 3--5 seeds. H3 uses one-sided $t$-tests against 2\pp with Holm correction across configurations. Paired baseline comparisons use Wilcoxon tests at 8 seeds and $t$-tests at 5 seeds, since a Wilcoxon test cannot go below $p=.0625$ with 5 pairs. A same-seed rerun of \cfg{ag\_L6} reproduced test accuracy and every logged spectral value exactly. Runs used PyTorch 2.15 on shared NVIDIA RTX A6000 GPUs. Shared memory caused 200 out-of-memory restarts, and interrupted jobs restarted from scratch.
